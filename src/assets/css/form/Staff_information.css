@@ -1,0 +1,177 @@
+.form{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    z-index: 100;
+    padding: 76px 0;
+    right: 0;
+    top: 0;
+}
+.form.active{
+    display: none;
+}
+.form__person{
+    background-color: var(--while-color);
+    width:  900px;
+    margin : 0 auto;
+    border-radius: 4px;
+    
+}
+/* header */
+.form__header{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.form__header-heading{
+    padding: 20px 32px 20px 32px;
+    display: flex;
+}
+.form__header-img{
+    cursor: pointer;
+    position: absolute;
+    border-radius: 4px;
+    right: 0;
+}
+.form__header-img:hover{
+    background-color: var(--white-gray);
+}
+.check-person {
+    text-align: center;
+    padding: 0 19.5px;
+    display: flex;
+}
+.check-person__input{
+    margin-top: 9px !important;
+   
+}
+.check-person span{
+    padding-left: 10px;
+    font-size: 14px;
+    line-height: 32px;
+    cursor: pointer;
+}
+.form-input.rigth{
+    padding-left: 10px;
+}
+.form-input__checkbox{
+    display: flex;
+    padding-top: 5px;
+}
+.checkbox-item{
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    border: 1px solid var(--gray);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.checkbox-item input[type = "checkbox"]{
+    display: none;
+}
+.checkbox-item.checked{
+    border: 1px solid var(--checkbox);
+}
+.checkbox-item.checked input[type = "checkbox"]{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin: 3px;
+    background-color: var(--checkbox);
+    border: 1px solid var(--checkbox);
+
+    display: flex;
+}
+.checkbox-item.checked input:checked::after{
+    display: none;
+}
+.form-input__checkbox span{
+    margin-left: 10px;
+    line-height: 18px;
+    margin-right: 20px;
+}
+.form .icon-form{
+    display: flex;
+    padding: 12px;
+}
+.form .icon {
+    width: 24px;
+    height: 24px;
+    margin: 0;
+}
+.form .icon.icon-what{
+    background: url(../../img/img/Sprites.64af8f61.svg) no-repeat -89px -144px;
+}
+
+.form .icon.icon-exit{
+    background: url(../../img/img/Sprites.64af8f61.svg) no-repeat -144px -144px;
+    margin-left: 6px;
+}
+/* information */
+.form__general{
+    list-style: none;
+    margin: 0 32px 32px 0;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.form__general::-webkit-scrollbar
+{
+    width: 6px;
+    height: 6px;
+    background-color: var(--gray);
+}
+.form__general::-webkit-scrollbar-thumb
+{   
+    min-height: 40px;
+    background-color: var(--light-black);
+    border-radius: 4px;
+}
+
+/* .form__general li{
+    padding: 0;
+} */
+.form__general-title{
+    position: relative;
+}
+.form__general-title::after{
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 50%;
+    height: 4px;
+    background-color: var(--primary-color);
+    top: 110%;
+}
+.form__general-item{
+    display: flex;
+    padding: 0 0 12px;
+}
+.form__general-item.left{
+    padding-right: 26px;
+}
+.form__general-item.top{
+    padding-top: 24px;
+}
+.form__general-item.form-combobox{
+    display: block;
+}
+.form__general-item.form-combobox .check{
+    color: #FF0000;
+}
+.form__general-item .form-input.left{
+    padding-right: 6px;
+}
+.form__general-item .dropdown{
+   width: 100%;
+}
+
+.form__work-title{
+    padding-top: 24px;
+}
+.dropdown-list__staff-location,
+.dropdown-list__staff-room{
+    z-index: 10;
+}
+/* save */
+
+

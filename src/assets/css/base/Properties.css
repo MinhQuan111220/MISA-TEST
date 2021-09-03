@@ -1,0 +1,21 @@
+:root{
+    --primary-color: #01B075;
+    --hover-color: #2FBE8E;
+    --default: #019160;
+    --focus: #EBF9F4;
+    --red-color: #FF0000;
+    --light-pink: #FFEBEB;
+    --blue: #FFEBEB;
+    --light-blue: #FFEBEB;
+    --orange: #FFEBEB;
+    --skin: #FFF3EB;
+    --light-black: #454545;
+    --gray: #afafaf;
+    --light-gray: #E5E5E5 ;
+    --white-gray: #f4f5f8;
+    --while-color : #ffffff;
+    --back-color : #111111;
+    --checkbox : #2ca01c;
+    --input : #babec5;
+    --menu-color : #38393d;
+}

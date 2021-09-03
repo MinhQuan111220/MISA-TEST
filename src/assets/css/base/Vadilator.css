@@ -1,0 +1,13 @@
+/* formgroup */
+.form-group.invalid .input,
+.combobobox.invalid .input{
+    border-color: red;
+}
+.form-group.invalid .input:hover,
+.combobobox.invalid .input:hover{
+    outline: 1px solid #e2e2e2;
+}
+.form-group.invalid .input:focus,
+.combobobox.invalid .input:focus{
+    outline: none;
+}

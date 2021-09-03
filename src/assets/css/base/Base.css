@@ -1,0 +1,128 @@
+@import url('../../font/fontawesome-5.15.1/css/all.css');
+@import url('./Button.css');
+@import url('./Dropdown.css');
+@import url('./Vadilator.css');
+@import url('./Input.css');
+@import url('./Table.css');
+@import url('./Combobox.css');
+@import url('./Properties.css');
+
+
+
+@font-face {
+    font-family: NotoSans-Italic;
+    src: url('../../font/notosans-italic.1c1aaac9.woff2') ;
+}
+@font-face {
+    font-family: NotoSans-SemiBold;
+    src: url('../../font/notosans-semibold.df3e6dc4.woff2') ;
+}
+@font-face {
+    font-family: NotoSans-Bold;
+    src: url('../../font/notosans-bold.3ede5aff.woff2') ;
+}
+@font-face {
+    font-family: NotoSans-Regular;
+    src: url('../../font/notosans-regular.2cb88a13.woff2') ;
+}
+body{
+    font-family: NotoSans-Regular;
+    font-size: 13px;
+    box-sizing: border-box;
+}
+tbody, td, tfoot, th, thead, tr {
+    border: none;
+}
+#main{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.active{
+    display: block;
+}
+.correct{
+    color: #F65454 ;
+}
+.heading{
+    color: var(--back-color);
+    font-size: 24px;
+    margin: 0;
+    font-family: NotoSans-Bold;
+}
+.title{
+    color: var(--back-color);
+    font-size: 16px;
+    margin: 0;
+    font-family: NotoSans-Bold;
+}
+.title2{
+    color: #111;
+    font-size: 14px;
+    margin: 0;
+    font-family:  NotoSans-SemiBold;
+}
+.label-field__input{
+    color: var(--back-color);
+    font-size: 12px;
+    margin: 0;
+    font-family: NotoSans-SemiBold;
+}
+.lable {
+    color: var(--light-black);
+    font-size: 13px;
+    margin: 0;
+    font-family: NotoSans-Regular;
+}
+.even{
+    background-color: var(--light-gray);
+}
+
+
+.delete__value{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: var(--light-gray);
+    border-radius: 50%;
+    right: 42px;
+    text-align: center;
+    display: none;
+    cursor: pointer;
+}
+.delete__value.active{
+    display: block;
+}
+.delete__value img{
+    width: 13px;
+    margin-bottom: 5px;
+    margin-left: 0.4px;
+    
+}
+
+input[type = "checkbox"]{
+    width: 18px;
+    height: 18px;
+    -webkit-appearance: none;
+	border: 1px solid var(--gray);
+	border-radius: 2px;
+    position: relative;
+    margin-top: 5px;
+    cursor: pointer;
+}
+ input:checked{
+    background-color: var(--while-color);
+    border: 1px solid var(--checkbox);
+}
+ input:checked::after{
+    content: '';
+    background: url(../../img/img/Sprites.64af8f61.svg) no-repeat  -1225px -363px;
+    width: 24px;
+    height: 24px;
+    display: block;
+	font-size: 12px;
+	position: absolute;
+	top: 2px;
+    left: 1px;
+	color: var(--checkbox);
+}

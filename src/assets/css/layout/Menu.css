@@ -1,0 +1,125 @@
+
+/* Menu left */
+.header{
+    display: flex;
+    padding: 0;
+    font-family: NotoSans-Regular;
+    position: relative;
+    width: 100%;
+    background-color: var(--menu-color);
+}
+.header-left__logo{
+    display: flex;
+    height: 48px;
+    line-height: 48px;
+    width: 180px;
+    align-items: center;
+}
+.icon-box {
+    height: 24px;
+    width: 24px;
+    margin : 0 10px 0 24px;
+    background: url(../../img/img/Sprites.64af8f61.svg) no-repeat  -424px -86px;
+}
+.logo-box .logo{
+    height: 32px;
+}
+
+.content__header{
+    display: flex;
+    width: 100%;
+    height: 48px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    background-color: var(--while-color);
+    flex: 1;
+}
+.content__header-text{
+    display: flex;
+    height: 48px;
+    align-items: center;
+}
+.header-left__list{
+    display: flex;
+    width: 52px;
+    justify-content: center;
+    align-items: center;
+}
+.header-left__list .icon-list{
+    margin: 0;
+    background: url(../../img/img/Sprites.64af8f61.svg) no-repeat  -312px -32px;
+    line-height: 48px;
+}
+.icon-list{
+    width: 24px;
+    height: 24px;
+    background: url(../../img/img/Sprites.64af8f61.svg) no-repeat  -843px -30px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.icon-down{
+    width: 14px;
+    height: 14px;
+    background: url(../../img/img/Sprites.64af8f61.svg) no-repeat  -1076px -32px;
+}
+.text-title{
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.text-title i{
+    font-size: 14px;
+    padding-left: 10px;
+}
+.icon-bell{
+    width: 24px;
+    height: 24px;
+    background: url(../../img/img/Sprites.64af8f61.svg) no-repeat  -788px -30px;
+
+}
+.content__header-accout{
+    padding-right: 20px;
+}
+.account{
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+}
+.avatar{
+    width: 32px;
+    margin-left: 24px;
+    cursor: pointer;
+}
+.account-name{
+    padding: 0 8px;
+    cursor: pointer;
+}
+.account__notification{
+    font-size: 18px;
+    color: var(--light-black) ;
+    font-weight: 200;
+    cursor: pointer;
+    position: relative;
+}
+.account__notification::after{
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    background-color: red;
+    top: 2%;
+    right: calc(16% - 3px);
+    border-radius: 3.5px;
+    border: 2px solid var(--while-color);
+    display: block;
+}
+.account__option{
+    font-size: 13px;
+    padding-right: 16px;
+    margin-top: 2px;
+    cursor: pointer;
+    color: var(--light-gray);
+}
+

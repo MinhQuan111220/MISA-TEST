@@ -1,0 +1,134 @@
+/* Input */
+.input-embrace{
+    width: 100%;
+    position: relative;
+}
+.input{
+    height: 32px;
+    width: 100%;
+    border-radius: 2px;
+    border : 1px solid var(--input);
+    padding: 5px 0 5px 10px;
+    outline: none;
+    color: inherit;
+    font-size: 13px;
+    font-family: NotoSans-Regular;
+}
+.input:hover{
+    outline: 1px solid #e2e2e2;
+}
+.input:focus:hover{
+    outline: none;
+}
+.input:focus{
+    border : 1px solid var(--checkbox);
+}
+.input-icon{
+    position: absolute;
+    font-size: 13px;
+    top: 47px;
+    right: 24px;
+}
+.input-vnd{
+    font-style: italic;
+}
+.input-money{
+    text-align: right;
+    padding-right: 69px;
+}
+.input-header{
+    padding: 0px 0 4px 0;
+}
+.heigth-input{
+    height: 40px;
+
+}
+.base-input{
+    position: relative;
+}
+
+input[type="date"] {
+    position: relative;
+    padding: 10px;
+}
+
+/* date box */
+.dx-datebox{
+    height: 32px !important;
+}
+.dxDateBox .dx-texteditor-input {
+    padding-left: 10px;
+    outline: none;
+    border: none;
+  }
+  
+  .dxDateBox.dx-state-focused .dx-texteditor-input {
+    border: none;
+  }
+  
+  .dxDateBox,
+  .dxDateBox.dx-state-hover {
+    border: 1px solid #babec5 !important;
+    border-radius: 2px !important;
+  }
+  
+  .dxDateBox.dx-state-focused {
+    border: 1px solid #2ca01c !important;
+    border-radius: 2px !important;
+  }
+  
+  .dxDateBox .dx-placeholder {
+    top: 1px;
+    left: 2px;
+    font-family: "Notosans";
+    font-size: 13px;
+  }
+  
+  .dx-datebox-wrapper .dx-calendar-navigator .dx-button-text,
+  .dx-datebox-wrapper .dx-calendar-navigator .dx-icon {
+    color: #2ca01c;
+  }
+  
+  .dx-calendar-cell.dx-calendar-selected-date.dx-calendar-contoured-date,
+  .dx-calendar-cell.dx-calendar-selected-date.dx-calendar-today.dx-calendar-contoured-date {
+    box-shadow: inset 0 0 0 1px #bebebe, inset 0 0 0 1000px #2ca01c;
+  }
+  
+  .dx-calendar-cell.dx-calendar-selected-date.dx-calendar-contoured-date {
+    background-color: #2ca01c;
+    box-shadow: none !important;
+  }
+  
+  .dx-calendar-cell.dx-calendar-today {
+    color: #08bf1e;
+    font-weight: 600;
+  }
+  
+  td.dx-calendar-cell.dx-calendar-other-view.dx-calendar-other-month.dx-calendar-selected-date {
+    background-color: #2ca01c;
+    box-shadow: none !important;
+  }
+
+  .dx-datebox-calendar .dx-dropdowneditor-icon::before{
+    display: none !important;
+   
+ }
+
+ .dx-dropdowneditor-button::after{
+   background: url(../../img/img/Sprites.64af8f61.svg) no-repeat -128px -306px !important;
+   z-index: 10;
+   height: 60px !important;
+   width: 40px;
+   top: 0;
+   left: 10px;
+   height: 50%;
+   content: "";
+   position: absolute;
+ }
+ .dx-dropdowneditor-button{
+   border-radius: 0 !important;
+ }
+
+ .dx-dropdowneditor-button.dx-state-active .dx-dropdowneditor-icon, .dx-dropdowneditor.dx-dropdowneditor-active .dx-dropdowneditor-icon{
+    background-color:  #fff !important;
+}
