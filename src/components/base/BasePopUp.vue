@@ -172,7 +172,6 @@ export default {
                     }).catch(error =>{
                         _this.$emit("deleteFail",error)
                     })
-                // console.log(lisId)
             }
             this.$emit('btnDeleteOnclick',true) 
         }, 
